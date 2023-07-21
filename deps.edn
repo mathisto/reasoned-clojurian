@@ -1,0 +1,5 @@
+{:paths ["src"]
+ :deps  {io.github.nextjournal/clerk {:mvn/version "0.14.919"}
+         org.clojure/core.logic {:mvn/version "1.0.1"}}
+ :aliases
+ {:neil {:project {:name reasoned-schemer/reasoned-schemer}}}}
