@@ -46,3 +46,14 @@ true
 ;; Is it a goal that fails?
 
 ;; ---
+
+;; ### 7.
+;; Exactly. What is the *value* of
+;; ```clj
+;; (run* q
+;;   u#)
+;; ```
+;;
+;; `()`, since `u#` fails, and because if *g* is a goal that fails, then the expression `(run* q g)` produces the empty list.
+
+;; ---
